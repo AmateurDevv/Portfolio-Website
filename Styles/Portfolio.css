@@ -85,7 +85,10 @@ body{
 
 /* main section styles */
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
@@ -106,4 +109,21 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-description{
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
 }
